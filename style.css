@@ -32,6 +32,21 @@ body {
   appearance: none;
 }
 
+.showcase {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase li small {
+  margin: 0 5px;
+}
+
 .container {
   perspective: 1000px;
   margin-bottom: 30px;
